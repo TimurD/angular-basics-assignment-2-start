@@ -1,0 +1,3 @@
+<input [(ngModel)]="username">
+<p>{{username}}</p>
+<button class="btn btn-primary" (click)="onClick()" [disabled]="username.length == 0">Click me!</button>
